@@ -1,6 +1,5 @@
 # server config vars
 api_url_base = "/api/recommender/v1"
-# model_path = "./src/models/product_recommender.model"
 model_path = './models/product_recommender.model'
 client_error_ret_code = 400
 not_implemented_ret_code = 501
