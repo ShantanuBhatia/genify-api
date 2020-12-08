@@ -19,6 +19,7 @@ With some basic styling on the example frontend with [min.css](http://mincss.com
 
 ### Prerequisites
 For development: [python3.8](https://www.python.org/downloads/release/python-383/)
+
 For deployment: [Docker](https://www.docker.com/) to run the container
 
 ### Installation
@@ -60,7 +61,7 @@ This will serve at https://localhost
 
 ### Additional Notes
 
-* At query time, allowing either a user-provided or default value for customer ID. 
+* At query time, the customer ID field is optional. 
 * The provided Kaggle notebook seemed to have mistranslated "renta" as "rent" rather than "income", which from the Kaggle competition docs seems to be the correct translation. For clarity, the code refers to this field as income. 
 * Moved all the hardcoded mapping data into a data_config.json file. Putting this into a database would be overkill for the scope of this assignment.
 
