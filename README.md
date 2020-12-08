@@ -43,7 +43,7 @@ During development, use the Flask dev server:
    ```
 The development server will serve to http://localhost:5000
 
-For ease of use during development, a simple frontend for querying the api provided
+For ease of use during development, a simple frontend for querying the api is provided at the base route.
 
 ### Docker Container Build
 
